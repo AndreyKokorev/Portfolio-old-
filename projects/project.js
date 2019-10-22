@@ -36,4 +36,3 @@ desktop.addEventListener('click', function () {
 if (document.body.clientWidth < 800) {
   mobile.style.display = "none";
 }
-
