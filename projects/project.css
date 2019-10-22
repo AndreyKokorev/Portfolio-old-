@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Downcome';
+  src: url('../assets/fonts/Downcome.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  justify-items: center;
+  background: rgb(63, 63, 63);
+}
+
+iframe {
+  z-index: 1;
+  width: 1900px;
+  height: 9900px;
+  margin: 0 auto;
+}
+
+button {
+  position: fixed;
+  right: 70px;
+  z-index: 2;
+  width: 150px;
+  height: 100px;
+  font-family: Downcome;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(81, 235, 94);
+  background: transparent;
+  box-shadow: inset 0 0 10px rgb(245, 222, 90);
+  text-shadow: 2px 2px 5px;
+
+}
+
+.mobile-button {
+  top: 60%;
+}
+
+.desktop-button {
+  display: none;
+  top: 60%;
+}
+
+.back-button {
+  top: 80%;
+  box-shadow: inset 0 0 10px rgb(245, 139, 90);
+}
+
+button:hover {
+  border-radius: 50%;
+}
+
+button:active {
+  transform: scale(0.9);
+}

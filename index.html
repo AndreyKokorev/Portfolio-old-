@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <header>
+      <img src="assets/images/avatar.jpg" alt="" class="avatar">
+      <div class="text-wrapper">
+        <h1>Andrey Kokorev</h1>
+        <div class="social"><span>Vkontakte: </span><a href="https://vk.com/id2932321">https://vk.com/id2932321</a>
+          <div class="social"><span>GitHub: </span><a
+              href="https://github.com/AndreyKokorev">https://github.com/AndreyKokorev</a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <details>
+        <summary>Education</summary>
+        <p>
+          <pre>
+       School of Advanced English:
+       1997-2008(Kovdor city)
+        </pre>
+        </p>
+        <p>
+          <pre>
+       Petrozavodsk State University:
+       2008-20013
+              </pre>
+        </p>
+        <p>
+          <pre>
+       HTML academy courses:
+       2019
+              </pre>
+        </p>
+      </details>
+      <div class="line"></div>
+      <h2 class="projects">Projects</h2>
+      <section class="projects-wrapper">
+        <div class="project-inner-wrapper">
+          <div class="project-x">
+            <div class="text-wrapper">
+              <h3>Code name: THEYALOW</h3>
+              <ul>
+                <li>Pixel perfect</li>
+                <li>Desktop+mobile</li>
+              </ul>
+            </div>
+            <a href="projects/iframe-theyalow.html"><img src="assets/images/project x.png" alt="project x"></a>
+          </div>
+        </div>
+        <div class="project-inner-wrapper">
+          <div class="project-z">
+            <div class="text-wrapper">
+              <h3>Code name:Repair-Design-Project</h3>
+              <ul>
+                <li>Responsive design</li>
+                <li>Sliders</li>
+              </ul>
+            </div>
+            <a href="projects/iframe-rdproject.html"><img src="assets/images/project z.png" alt=""></a>
+          </div>
+        </div>
+        <div class="notice">click on the image to see the project</div>
+        <button class="button-back" type="button" onclick="changeSlide(-1)"></button>
+        <button class="button-forward" type="button" onclick="changeSlide(+1)"></button>
+        <button class="button-description" type="button"><div class="hint">show description</div></button>
+        <button class="button-description button-description-right" type="button"><div class="hint hint-right">show description</div></button>
+      </section>
+    </main>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
